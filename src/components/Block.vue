@@ -38,8 +38,11 @@ export default {
     console.log(this.reactionTime);
     this.$emit('end', this.reactionTime);
   },
-  randomPosition() {
+  randomPositionLeft() {
       return Math.random() * (window.innerWidth - 400) + 'px';
+    },
+    randomPositionTop() {
+      return Math.random() * (window.innerHeight - 400) + 'px';
     }
  }
 }
