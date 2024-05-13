@@ -1,5 +1,5 @@
 <template>
-  <div class="block" v-if="showBlock" @click="stopTimer" :style="{ top: randomPosition(), left: randomPosition() }">
+  <div class="block" v-if="showBlock" @click="stopTimer" :style="{ top: randomPositionTop(), left: randomPositionLeft() }">
     click me
   </div>
 </template>

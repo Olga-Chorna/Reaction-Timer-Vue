@@ -14,7 +14,7 @@ export default {
   mounted() {
     if (this.score < 250) {
       this.rank = 'Ninja fingers'
-    } else if (this.score < 400) {
+    } else if (this.score < 600) {
       this.rank = "Rapid Reflexes"
     } else {
       this.rank = "Snail pace ..."
